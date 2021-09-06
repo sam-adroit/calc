@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.calc{
+    width: 350px;
+    border: 2px solid rgb(203 219 239);
+    margin: 20px auto;
+}
+.screen{
+    max-width: 350px;
+    height: 180px;
+    background: rgb(232 238 245);
+    position: relative;
+}
+.screen p{
+    max-width: 200px;
+    color: brown;
+}
+
+#ans{
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+.row p{
+    font-size: 23px;
+    width: 25%;
+    border: 2px solid rgb(203 219 239);
+    text-align: center;
+    padding: 20px 5px;
+}
+.row p:hover{
+    cursor: pointer;
+}

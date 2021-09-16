@@ -129,8 +129,7 @@ function answer(){
         res = [];
         variable = [];
         t = 0;
-    }
-    
+    }    
 }
 
 function control(ctrl) {

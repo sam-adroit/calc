@@ -14,8 +14,10 @@
     position: relative;
 }
 .screen p{
-    max-width: 200px;
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: brown;
+    padding: 10px;
 }
 @media screen and (max-width: 480px){
     .calc{

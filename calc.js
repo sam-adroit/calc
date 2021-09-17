@@ -36,7 +36,7 @@ function display() {
 
 function operation_arr(input){
     if(input_arr[0] !== "OFF"){
-        if(input_arr.toString().length < 40){
+        if(input_arr.toString().length < 25){
             if(input_arr[input_arr.length - 1] === "0"){
                 input_arr[input_arr.length - 1] = input === "." ? "0.":`${input}`;
                 if(typeof(input) === "string" && input !== "."){
@@ -48,10 +48,8 @@ function operation_arr(input){
                 if(last_input !== "+" && last_input !== "-" && last_input !== "*" && last_input !== "/"){
                     if (input === "."){
                         input_arr[input_arr.length - 1] = last_input.indexOf(".") === -1 ? `${last_input}`+`${input}`:`${last_input}`;
-                        console.log(input_arr);
                     }else{
                         input_arr[input_arr.length - 1] = `${last_input}`+`${input}`;
-                        console.log(input_arr);
                     }
                 }else{
                     input_arr[input_arr.length] = input === "." ? "0.":`${input}`;

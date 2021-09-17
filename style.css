@@ -16,8 +16,8 @@
 .screen p{
     font-size: 14px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: brown;
-    padding: 10px;
+    color: rgb(83, 25, 25);
+    padding: 10px 15px;
 }
 @media screen and (max-width: 480px){
     .calc{
